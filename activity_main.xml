@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Выберите диапозон вашего числа"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/min"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="число от"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/max"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:fontFamily="serif"
+        android:hint="число до"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:backgroundTint="#009688"
+        android:fontFamily="serif"
+        android:onClick="onNextIntent"
+        android:text="Play"
+        android:textSize="20sp" />
+
+</LinearLayout>

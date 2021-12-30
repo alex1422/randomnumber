@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Это число больше 0?"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/text_2"
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#4CAF50"
+        android:elegantTextHeight="false"
+        android:fontFamily="serif"
+        android:onClick="onYesNoClick"
+        android:text="Да"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/text_3"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#F44336"
+        android:fontFamily="serif"
+        android:onClick="onYesNoClick"
+        android:text="Нет"
+        android:textSize="20sp" />
+</LinearLayout>
