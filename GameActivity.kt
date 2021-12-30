@@ -1,4 +1,4 @@
-package com.example.randomfilmk
+package com.example.randomnumber
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
